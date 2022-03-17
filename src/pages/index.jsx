@@ -9,7 +9,7 @@ const IndexPage = () => (
       <div className="row">
         <div className="col-12 py-4">
           <h1>Home</h1>
-          <p>Welcome to your new Gatsby site.</p>
+          <p>Welcome!</p>
         </div>
       </div>
     </div>
