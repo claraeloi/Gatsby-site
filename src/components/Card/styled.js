@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-export const CardV2Wrapper = styled.div`
+export const CardWrapper = styled.div`
     background: ${ props => props.background ? props.background: '#ff69b4'};
 
     h5{

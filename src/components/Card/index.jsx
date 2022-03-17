@@ -1,15 +1,17 @@
 import React from "react";
+import * as Styled from './styled';
+import Images from '../Images'
 
-import CardStyles from './card.module.scss'
-
-const Card = () => {
+const Card = (props) => {
     return(
-        <div className={CardStyles.card}>
-            <h1>Title Card</h1>
-            <h1 className={CardStyles.h1}>Title 2 Card</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, itaque, maxime molestias libero enim, eligendi officiis voluptates corporis eius quia dolorem saepe! Iste vero nisi et neque at delectus ipsum?</p>
-            <button>Butto Card</button>
-        </div>
+        <Styled.CardWrapper className="card" background={props.backgroundCard} primary={props.styleDefault}>
+            <Images name={props.nameImage} />
+            <div className="card-body">
+                <h5 className="card-title">{props.titleCard}</h5>
+                <p className="card-text">{props.textCard}</p>
+                <a href="#" className={`btn btn-${props.colorButton}`}>Visitar</a>
+            </div>
+        </Styled.CardWrapper>
     )
 }
 

@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import CardV2 from "../components/CardV2"
+import Card from "../components/Card"
 
 const About = () => {
     const text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
@@ -19,7 +19,7 @@ const About = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-4">
-                        <CardV2 
+                        <Card 
                             nameImage="foto01"
                             titleCard="Card title 01"
                             textCard="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iure corrupti voluptatum aperiam, id voluptas odio magnam explicabo ratione, eligendi ipsam doloribus modi illum corporis error nihil culpa eum sapiente."
@@ -29,7 +29,7 @@ const About = () => {
                         />
                     </div>
                     <div className="col-4">
-                        <CardV2 
+                        <Card 
                             nameImage="foto02"
                             titleCard="Card title 02"
                             textCard="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iure corrupti voluptatum aperiam, id voluptas odio magnam explicabo ratione, eligendi ipsam doloribus modi illum corporis error nihil culpa eum sapiente."
@@ -39,7 +39,7 @@ const About = () => {
                         />
                     </div>
                     <div className="col-4">
-                        <CardV2 
+                        <Card 
                             nameImage="foto03"
                             titleCard="Card title 03"
                             textCard="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iure corrupti voluptatum aperiam, id voluptas odio magnam explicabo ratione, eligendi ipsam doloribus modi illum corporis error nihil culpa eum sapiente."
